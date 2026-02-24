@@ -1,10 +1,11 @@
 .holder {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  /* First & last touch edges */
-    flex-wrap: wrap;                 /* Move extra items to next row */
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  flex-wrap: wrap;               /* Move to next row if needed */
 }
 
 .item {
-    flex: 0 0 auto;   /* Prevent squashing */
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px; /* Optional spacing between rows */
 }
